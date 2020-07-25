@@ -453,6 +453,355 @@ body {
     border-radius: 6px;
 }
 
+.interview {
+    grid-area: interview;
+
+}
+
+.head {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 8vw;
+    border-radius: 0.3vw; 
+    margin-right: 87vw;
+    margin-left: 3vw;
+}
+.lists {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.pGoal {
+    background-color: #E9EBFF;
+    border-radius: 10px;
+    margin-top: 9vw;
+}
+.pGoal h2 {
+    font-family: 'Playfair Display', serif;
+    color: #636AAF;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.7vw;
+}
+
+.pGoal ul {
+    font-family: 'Playfair Display', serif;
+    color: #636AAF;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    line-height: 27px;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+}
+
+.uGoal{
+    background-color: #E7F5FF;
+    border-radius: 10px;
+    margin-top: 4vw;
+}
+.uGoal h2 {
+    font-family: 'Playfair Display', serif;
+    color: #8BACC4;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.7vw;
+}
+
+.uGoal ul {
+    font-family: 'Playfair Display', serif;
+    color: #8BACC4;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    line-height: 27px;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+}
+
+.tUser {
+    background-color: #FFE4FF;
+    border-radius: 10px;
+}
+.tUser h2 {
+    font-family: 'Playfair Display', serif;
+    color: #AB80AC;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.7vw;
+}
+
+.tUser ul {
+    font-family: 'Playfair Display', serif;
+    color: #AB80AC;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    line-height: 27px;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+}
+
+.userPersona {
+    grid-area: userPersona;
+
+}
+.userPersona h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 8vw;
+    border-radius: 0.3vw; 
+    margin-right: 84vw;
+    margin-left: 3vw;
+}
+
+.persona {
+    align-content: center;
+    justify-content: center;
+    width: 85vw;
+    height: auto;
+    margin-left: 7vw;
+    margin-top: 2vw;
+}
+
+.userJourney {
+    grid-area: userJourney;
+
+}
+.userJourney h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 8vw;
+    border-radius: 0.3vw; 
+    margin-right: 84vw;
+    margin-left: 3vw;
+}
+
+.journey {
+    align-content: center;
+    justify-content: center;
+    width: 99vw;
+    height: auto;
+    margin-top: 2vw;
+}
+
+.userFLow {
+    grid-area: userFLow;
+
+}
+.userFLow h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 5vw;
+    border-radius: 0.3vw; 
+    margin-right: 80vw;
+    margin-left: 3vw;
+}
+
+.flow {
+    align-content: center;
+    justify-content: center;
+    width: 85vw;
+    height: auto;
+    margin-left: 7vw;
+}
+
+.sketch {
+    grid-area: sketch;
+
+}
+.sketch h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 5vw;
+    border-radius: 0.3vw; 
+    margin-right: 84vw;
+    margin-left: 3vw;
+}
+
+.sketches {
+    align-content: center;
+    justify-content: center;
+    width: 99vw;
+    height: auto;
+}
+
+.lo-fi {
+    grid-area: lo-fi;
+
+}
+.lo-fi h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 5vw;
+    border-radius: 0.3vw; 
+    margin-right: 80vw;
+    margin-left: 3vw;
+}
+
+.lwireframes {
+    align-content: center;
+    justify-content: center;
+    width: 99vw;
+}
+
+.styleGuide{
+    grid-area: styleGuide;
+
+}
+.styleGuide h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 5vw;
+    border-radius: 0.3vw; 
+    margin-right: 86vw;
+    margin-left: 3vw;
+}
+
+.guide {
+    align-content: center;
+    justify-content: center;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.hi-fi {
+    grid-area: hi-fi;
+    
+
+}
+.hi-fi h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 5vw;
+    border-radius: 0.3vw; 
+    margin-right: 84vw;
+    margin-left: 3vw;
+}
+
+.hwireframes {
+    align-content: center;
+    justify-content: center;
+    width: 88vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+.renk {
+    background-color: #E8EEF7;
+}
+
+.final  {
+    grid-area: final;
+    margin-left: auto;
+    margin-left: 2vw;
+}
+
+.final h2 {
+    font-family: 'Aladin', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 49px;
+    color: #3C3C3C;
+    margin-top: 4vw;
+    border-bottom: 2px solid  #74B59E;;
+    padding-bottom: 5px;
+    margin-top: 5vw;
+    border-radius: 0.3vw; 
+    margin-right: 82vw;
+    margin-left: 3vw;
+}
+.thoughts {
+    margin-top: 4vw;
+    margin-right: 2vw;
+}
+
+.thoughts h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 49px;
+    color: #ff561f;
+    margin-left: 5vw;
+    
+
+}
+.thought{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+    color: #3C3C3C;
+    margin-left: 5vw;
+    
+}
+
 
 @media only screen and (max-width: 500px) {
     #portfolio {
