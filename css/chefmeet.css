@@ -784,7 +784,7 @@ body {
 .thoughts h3 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 2vw;
     line-height: 49px;
     color: #ff561f;

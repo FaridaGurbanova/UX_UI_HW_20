@@ -131,13 +131,13 @@ body {
     grid-area: portfolio;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
-    "pOne pTwo pThree"
-    "pFour pFive pSix"
-    "pSeven pEight pNine";
-    margin-left: 5vw;
-    margin-right: 5vw;
+    "pOne pTwo pThree";
+    /* "pFour pFive pSix"
+    "pSeven pEight pNine"; */
+    margin-right: -26vw;
+    margin-left: 10vw;
 }
 
 #footer {
@@ -145,12 +145,12 @@ body {
     margin-top: 1vw;
     grid-area: footer;
     display: grid;
-    grid-template-rows: 10% 70% 15% 5%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 95% 5%;
+    grid-template-columns: 1fr ;
     grid-template-areas:
     "contact contact contact "
-    "number emailSection emailSection"
-    "links links links"
+    /* "number emailSection emailSection"
+    "links links links" */
     "copyright copyright copyright";
 }
 
