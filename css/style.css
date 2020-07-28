@@ -222,7 +222,7 @@ body {
     margin-left: 32vw;
     height: 38px;
     width: 103px;
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
 .aboutmeSection {
@@ -263,7 +263,7 @@ body {
     margin-bottom: 4vh;
     height: 40px;
     width: 144px;
-    font-size: 18px;
+    font-size: 1.2vw;
     border: none;
 }
 
