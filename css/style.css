@@ -130,28 +130,28 @@ body {
 #portfolio {
     grid-area: portfolio;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "pOne pTwo pThree";
+    "pTwo pThree";
     /* "pFour pFive pSix"
     "pSeven pEight pNine"; */
-    margin-right: -26vw;
+    margin-right: 13vw;
     margin-left: 10vw;
 }
 
 #footer {
-    background-color: #E7EEF8;
+    background: linear-gradient(270deg, #D0E4FF 0%, #FFFFFF 57.81%);
     margin-top: 1vw;
     grid-area: footer;
     display: grid;
     grid-template-rows: 95% 5%;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "contact contact contact "
+    "links contact"
     /* "number emailSection emailSection"
     "links links links" */
-    "copyright copyright copyright";
+    "copyright copyright";
 }
 
 .profile {
@@ -555,6 +555,10 @@ body {
 
 #contact {
     grid-area: contact;
+    font-family: 'Parisienne', cursive;
+    margin-top: 7vw;
+    margin-left: -14vw;
+    margin-right: 12vw;
 }
 
 .number {
@@ -652,6 +656,56 @@ body {
     padding-top: 0vw;
     background-color: #C8342A
 }
+.links {
+    grid-area: links;
+    margin-bottom: 2vw;
+}
+
+.links h2 {
+    color: #373334;
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-left: 9vw;
+}
+.socials {
+    height: auto;
+    width: 100%;
+    margin-left: 15vw;
+}
+.social {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 1vw;
+}
+
+.social p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.4vw;
+    color: #525A5F;
+    margin-bottom: 0vw;
+    margin-left: 1vw;
+}
+#linkedins {
+    width: auto;
+    height: 2vw;
+    padding-top: 1vw;
+}
+#behances {
+    width: auto;
+    height: 1.5vw;
+    padding-top: 1.4vw;
+}
+#instagrams {
+    width: auto;
+    height: 2vw;
+    padding-top: 1.3vw;
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
     #portfolio {
