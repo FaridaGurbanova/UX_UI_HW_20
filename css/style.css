@@ -130,14 +130,14 @@ body {
 #portfolio {
     grid-area: portfolio;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
     grid-template-areas: 
-    "pTwo pThree";
+    "pOne pTwo pThree";
     /* "pFour pFive pSix"
     "pSeven pEight pNine"; */
-    margin-right: 13vw;
-    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
 #footer {
@@ -391,7 +391,7 @@ body {
 
 #pOne {
     grid-area: pOne;
-    background-image: url(../images/1p.png);
+    background-image: url(../images/2p.png);
     background-repeat: no-repeat;
     background-position: 0vw;
     background-size: cover;
@@ -400,11 +400,12 @@ body {
     border-top: transparent;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 2vw;
 } 
 
 #pTwo {
     grid-area: pTwo;
-    background-image: url(../images/2p.png);
+    background-image: url(../images/5p.png);
     background-repeat: no-repeat;
     background-position: 0vw;
     background-size: cover;
@@ -417,7 +418,7 @@ body {
 
 #pThree {
     grid-area: pThree;
-    background-image: url(../images/3p.png);
+    background-image: url(../images/1p.png);
     background-repeat: no-repeat;
     background-position: 0vw;
     background-size: cover;
