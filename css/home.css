@@ -1,0 +1,257 @@
+/* Home grid */
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "leftside rightside" ;
+}
+.leftside {
+    height: 100vh;
+    grid-area: leftside;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(90deg, #8FA3C2 -25.56%, #F5F7FA 108.82%);
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: 
+    "nav"
+    "introGrid";
+
+}
+.rightside {
+    height: 100vh;
+    grid-area: rightside;
+    z-index: 1;
+    background: #F3F3F5;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas: 
+    "back information";
+}
+
+/* Navigation Bar */
+
+#logo {
+    height: auto;
+    width: 5.2vw;
+    margin-top: -1vh;
+    margin-left: 6vw;
+    margin-right: 2vw;
+}
+
+#home {
+    cursor: pointer;
+    height: auto;
+    width: 2vw;
+    margin-left: 1vw;
+    margin-right: 4vw;
+    border-bottom: 1px solid #0B1A31;
+    padding-bottom: 8px;
+    border-radius: 0.1vh;
+    margin-top: -1vh;
+}
+
+ #nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 4vh;
+    margin-left: 3vw;
+ }
+
+ .navigation {
+    display: flex;
+    width: 38vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 1vh;
+    margin-top: -1vh;
+}
+
+.navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    color: #0B1A31;
+    margin-right: 4vw;
+}
+
+/* Introduction  */
+#introGrid {
+    grid-area:introGrid ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#hello {
+    position: absolute;
+    font-family: Mr De Haviland;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.1vw;
+    color: #FFFFFF;
+    transform: rotate(-22deg);
+    width: 25vw;
+    left: 3vw;
+    top: 18vh;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.1em;
+}
+
+#name {
+    position: absolute;
+    color: #85152b;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vw;
+    width: 40vw;
+    height: 2vh;
+    left: 9vw;
+    top: 32vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#job {
+    position: absolute;
+    color: #0B1A31;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.1vw;
+    width: 20vw;
+    left: 32vw;
+    top: 44vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Information Photos */
+
+#back{
+    grid-area: back ;
+    position: relative;
+}
+.information {
+    height: 100vh;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    grid-area: information;
+    display: grid;
+    grid-template-rows: 95% 5%;
+    grid-template-areas: 
+    "photos"
+    "copyright";
+}
+
+.photos {
+    grid-area: photos;
+    position: relative;
+    height: 100vh;
+    width: auto;
+}
+
+.copyright {
+    grid-area: copyright;
+}
+
+/* #back h1 {
+    z-index: 5;
+    font-family: 'Jomhuria', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42vw;
+    left: -25vw;
+    top: -27vw;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    transform: rotate(90deg);
+} */
+
+.back {
+    position: absolute;
+    z-index: 3;
+    margin-left: -3vw;
+    width: auto;
+    height: 100vh;
+    margin-top: 0vh;
+}
+
+#portrait {
+    position: absolute;
+    width: auto;
+    height: 80vh;
+    margin-left: -1.5vh;
+    top: 8vh;
+    transform: rotate(6.93deg);
+    z-index: 1;
+
+}
+
+.socials {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    left: 0vh;
+    z-index: 5;
+    margin-top: 78vh;
+    transform: rotate(6.93deg);
+}
+.social {
+    position: relative;
+    z-index: 6;
+    margin-right: 3vh;
+    margin-bottom: 0vh;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+    height: 5.3vh;
+    padding-top: 0vh;
+}
+#mail {
+    left: 19vh;
+    top: 1vh;
+}
+#linkedin {
+    left: 26vh;
+    top: 1vh;
+}
+
+#behance {
+    left: 33vh;
+    top: 1vh;
+}
+
+#instagram {
+    left: 40vh;
+    top: 1vh;
+}
+#copy {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.7vh;
+    line-height: 2vh;
+    margin-right: 2vw;
+    color: rgba(43, 72, 78, 0.58);
+}
