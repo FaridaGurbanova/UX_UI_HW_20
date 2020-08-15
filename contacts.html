@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 
 <body>
@@ -61,13 +62,13 @@
             </div>
         </div>
 
-        <form class="form">
+        <form id="contactForm" class="form">
             <h1 class="touch">Get in touch</h1>
             <div class="submits">
-                <input id="name" class="formfield" type="text" placeholder="Name">
-                <input id="email" class="formfield" type="text" placeholder="Email">
-                <textarea id="message" class="formfield" type="text" placeholder="Message"></textarea>
-                <button id="submit"> <img id="icondo" src="images/send.svg">
+                <input id="name" class="formfield" type="text" placeholder="Name" name="name">
+                <input id="email" class="formfield" type="text" placeholder="Email" name="email">
+                <textarea id="message" class="formfield" type="text" placeholder="Message" name="message"></textarea>
+                <button id="submit" type="submit"> <img id="icondo" src="images/send.svg">
                     <p class="text"> SUBMIT </p>
                 </button>
             </div>
@@ -78,4 +79,21 @@
             <p id="copy">Copyright © 2020 Farida Gurbanova</p>
         </div>
     </section>
+
+    <script>
+        $('#contactForm').submit(function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: "http://faridagurbanova.com:3001/api/contact",
+                type: "post",
+                data: $('#contactForm').serialize(),
+                success: function() {
+                    document.getElementById('name').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('message').value = '';
+                }
+            });
+        });
+    </script>
+
 </body>
