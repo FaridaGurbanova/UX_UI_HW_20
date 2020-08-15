@@ -1,11 +1,10 @@
 version: '3.1'
 
 services:
-    app:
+    frontend:
         env_file:
             - .env
         image: 'farida-gurbanova-fe:${TAG}'
         build: '.'
         ports:
             - 5001:80
-        container_name: '${COMPOSE_PROJECT_NAME}_frontend'
