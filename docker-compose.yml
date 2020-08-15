@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+    app:
+        image: 'farida-gurbanova-fe'
+        build: '.'
+        ports:
+            - 5001:80
