@@ -3,248 +3,85 @@
 
 <head>
     <title>Farida Gurbanova</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav id="navBar">
-        <div class="logo">
-            <img id="logo" src="images/logo.png">
+    <section class="grid">
+        <div class="leftside">
+            <nav id="nav">
+                <!-- <div class="logo">
+                    <img id="logo" src="images/logo1.png">
+                </div> -->
+                <div class="navigation">
+                    <div class="logo"><img id="logo" src="images/logo1.png"></div>
+                    <a href="index.html" style="color: #0B1A31; text-decoration: none;">
+                        <img id="home" src="images/home.svg">
+                    </a>
+                    <a href="about.html" style="color: #0B1A31; text-decoration: none;">
+                        <p>ABOUT</p>
+                    </a>
+                    <a href="portfolio.html" style="color: #0B1A31; text-decoration: none;">
+                        <p>PORTFOLIO</p>
+                    </a>
+                    <a href="contacts.html" style="color: #0B1A31; text-decoration: none;">
+                        <p>CONTACTS</p>
+                    </a>
+                </div>
+            </nav>
+            <div id="introGrid" class="top">
+                <h1 id="hello">Hello,I'm</h1>
+                <h2 id="name">Farida Gurbanova</h2>
+                <h3 id="job"> UI/UX Designer</h3>
+            </div>
         </div>
-        <div id="navigation">
-            <p> <a href="index.html" style="text-decoration: none; color: #373334;">Home</a></p>
-            <p>About</p>
-            <p>Services</p>
-            <p>Portfolio</p>
-            <!-- <p>Testimonials</p> -->
-            <p>Contacts</p>
-        </div>
-    </nav>
-
-    <section id="heroGrid">
-        <div id="introGrid" class="top">
-            <h1 id="hello">Hello,I'm</h1>
-            <h2 id="name">Farida Gurbanova</h2>
-            <h3 id="job"> UI/UX Designer</h3>
-            <!-- <button id="hire">Hire Me!</button> -->
-        </div>
-        <div id="photoGrid" class="top">
-            <div>
-                <img class="profile" src="images/profil_p.png">
+        <div class="rightside">
+            <div id="back">
+                <img class="back" src="images/UIUX2.svg" alt="">
             </div>
-            <div class="icons">
-                <a href="http://www.linkedin.com/in/farida-gurbanova" style="color: #525A5F; text-decoration: none;"
-                    target="_blank">
-                    <img class="icon" src="images/linkedin.png">
-                </a>
-                <a href="https://www.behance.net/faridagurbanova" style="color: #525A5F; text-decoration: none;"
-                    target="_blank">
-                    <img class="icon" src="images/behance.png">
-                </a>
-                <a href="https://www.instagram.com/farida.akif/" style="color: #525A5F; text-decoration: none;"
-                    target="_blank">
-                    <img class="icon" src="images/instagram.png">
-                </a>
-                <!-- <img class="icon" src="images/twitter.png">
-                <img class="icon" src="images/youtube.png"> -->
-            </div>
-
-        </div>
-
-        <div id="aboutMe" class="aboutmeSection">
-            <h1 class="header">About Me</h1>
-            <p class="aboutMe">I am a Solutions-savvy UI Designer with a track record of success as a Graphic Designer,
-                combining creativity and usability viewpoints to design web and mobile applications. I Recently earned a
-                certificate in UX/UI Design from the University of Texas developing skills in design thinking,
-                user-centered design research, and insight synthesis. I thrive on developing empathetic user experiences
-                by conducting user interviews, persona creation, and decision mapping to improve brand loyalty, customer
-                retention, and visit-to-order ratios. I’m Looking to leverage excellent interpersonal communication and
-                collaboration abilities to contribute to a high-performing team.
-            </p>
-            <a href="images/Resume.pdf" download="Resume.pdf"> <button id="cv">Download CV</button> </a>
-        </div>
-
-        <section id="services" class="partone">
-            <h1 class="header">Services</h1>
-            <p class="text">Tool I know</p>
-            <div id="tools">
-                <div class="tool">
-                    <img class="ai" src="images/Illustrator.png">
-                    <p>Illustrator</p>
-                </div>
-                <div class="tool">
-                    <img class="ai" src="images/xd.png">
-                    <p>Adobe XD</p>
-                </div>
-                <div class="tool">
-                    <img class="ai" src="images/Illustrator.png">
-                    <p>Sketch</p>
-                </div>
-                <div class="tool">
-                    <img class="ai" src="images/xd.png">
-                    <p>Figma</p>
-                </div>
-                <div class="tool">
-                    <img class="ai" src="images/Illustrator.png">
-                    <p>Photoshop</p>
-                </div>
-                <div class="tool">
-                    <img class="ai" src="images/xd.png">
-                    <p>Lightroom</p>
-                </div>
-            </div>
-            <div id="button">
-                <button id="viewAll"> View All</button>
-            </div>
-        </section>
-
-        <section id="whatdo" class="parttwo">
-            <p id="title" class="txt">What I do</p>
-            <div class="box">
-                <img id="one" class="ido" src="images/webdesign.png">
-            </div>
-            <div class="box">
-                <img id="two" class="ido" src="images/appdesign.png">
-            </div>
-            <div class="box">
-                <img id="three" class="ido" src="images/graphic.png">
-            </div>
-            <div class="box">
-                <img id="four" class="ido" src="images/webdevelop.png">
-            </div>
-        </section>
-
-        <section id="filter">
-            <div class="head">
-                <h1 class="header">Portfolio</h1>
-            </div>
-            <!-- <div class="filter">
-                <p class="highligher">All</p>
-                <p>Branding</p>
-                <p>Logo</p>
-                <p>UI/UX</p>
-                <p>Mobile Apps</p>
-                <p>Web Design</p>
-            </div> -->
-        </section>
-
-        <section id="portfolio">
-            <!-- <div id="pOne">
-                <div class="case">
-                    <div class="category">
-                        <h1>Category</h1>
-                        <p>Project Title</p>
-                    </div>
-                </div>
-            </div> -->
-            <a href="chefmeet.html" style="text-decoration: none;">
-                <div id="pOne">
-                    <div class="case">
-                        <div class="category">
-                            <h1>UI/UX</h1>
-                            <p>ChefMeet</p>
+            <div class="information">
+                <div class="photos">
+                    <div> <img id="portrait" src="images/portrait.png"> </div>
+                    <div class="socials">
+                        <div class="social">
+                            <a href="mailto: frida.akif@gmail.com" style="color: #85152B; text-decoration: none;"
+                                target="_blank">
+                                <img class="icon" id="mail" src="images/mail1.png">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="http://www.linkedin.com/in/farida-gurbanova"
+                                style="color: #85152B; text-decoration: none;" target="_blank">
+                                <img class="icon" id="linkedin" src="images/linkedin1.png">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.behance.net/faridagurbanova"
+                                style="color: #85152B; text-decoration: none;" target="_blank">
+                                <img class="icon" id="behance" src="images/behance1.png">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.instagram.com/farida.akif/"
+                                style="color: #85152B; text-decoration: none;" target="_blank">
+                                <img class="icon" id="instagram" src="images/instagram1.png">
+                            </a>
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="planatour.html" style="text-decoration: none;">
-                <div id="pThree">
-                    <div class="case">
-                        <div class="category">
-                            <h1>Category</h1>
-                            <p>Project Title</p>
-                        </div>
-                    </div>
+                <div id="copyright">
+                    <p id="copy">Copyright © 2020 Farida Gurbanova</p>
                 </div>
-            </a>
-            <!-- <div id="pFour">
-                <div class="case">
-                    <div class="category">
-                        <h1>Category</h1>
-                        <p>Project Title</p>
-                    </div>
-                </div>
-            </div> -->
-            <a href="dps.html" style="text-decoration: none;">
-                <div id="pTwo">
-                    <div class="case">
-                        <div class="category">
-                            <h1>UI/UX</h1>
-                            <p>DPS Website Redesign</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <!-- <div id="pThree">
-                <div class="case">
-                    <div class="category">
-                        <h1>Category</h1>
-                        <p>Project Title</p>
-                    </div>
-                </div>
-            </div> -->
-        </section>
-        <section id="footer">
-            <div class="links">
-                <h2 class="gettouch"> Get In Touch</h2>
-                <div class="socials">
-                    <div class="social">
-                        <img id="linkedins" src="images/linkedin.png">
-                        <p> <a href="http://www.linkedin.com/in/farida-gurbanova"
-                                style="color: #525A5F; text-decoration: none;" target="_blank"> Linkedin </a></p>
-                    </div>
-                    <div class="social">
-                        <img id="behances" src="images/behance.png">
-                        <p> <a href="https://www.behance.net/faridagurbanova"
-                                style="color: #525A5F; text-decoration: none;" target="_blank"> Behance </a></p>
-                    </div>
-                    <div class="social">
-                        <img id="instagrams" src="images/instagram.png">
-                        <p> <a href="https://www.instagram.com/farida.akif/"
-                                style="color: #525A5F; text-decoration: none;" target="_blank">Instagram </a> </p>
-                    </div>
-                </div>
-
             </div>
-            <div>
-                <h1 id="contact" class="header">Looking for help? I'm available for hire as a consultant. Want to get in
-                    touch? Have a look at my contact page.</h1>
-            </div>
-            <!-- <div class="number">
-                <p class="phone">Phone</p>
-                <p class="num">+1 234 567 89 01</p>
-                <p class="email">Email</p>
-                <p class="yahoo">Farida.Gurbanova@yahoo.com</p>
-                <p class="myadd">My Adress</p>
-                <p class="Austin">Austin, Texas,United States </p>
-            </div>
-            <div class="emailSection">
-                <div>
-                    <p id="intouch">Get in touch</p>
-                </div>
-                <form class="form">
-                    <input id="names" class="formfield" type="text" placeholder="Name">
-                    <input id="email" class="formfield" type="text" placeholder="Email">
-                    <input id="phone" class="formfield" type="text" placeholder="Phone">
-                    <input id="budget" class="formfield" type="text" placeholder="Budget">
-                    <input id="message" class="formfield" type="text" placeholder="Message">
-                    <button id="submit">Submit</button>
-                </form>
-            </div>
-            <div class="links"> -->
-
-            </div>
-            <div id="copyright">
-                <p id="copy">© Copyright 2020</p>
-            </div>
-        </section>
+        </div>
     </section>
 
 </body>
-
-</html>
