@@ -131,16 +131,20 @@
 
 #name {
     grid-area: name;
+    color: #0B1A31;
 }
 #email {
     grid-area: email;
     margin-left: -3vw;
+    color: #0B1A31;
 }
 #message {
     grid-area: message;
     margin-top: 0vh;
     width: 37vw;
     height: 15vh;
+    color: #0B1A31;
+    padding-top: 2vh;
 }
 
 #submit {
