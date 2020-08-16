@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/contact.js"></script>
 </head>
 
 <body>
@@ -79,21 +80,5 @@
             <p id="copy">Copyright © 2020 Farida Gurbanova</p>
         </div>
     </section>
-
-    <script>
-        $('#contactForm').submit(function(e) {
-            e.preventDefault();
-            $.ajax({
-                url: "http://faridagurbanova.com:3001/api/contact",
-                type: "post",
-                data: $('#contactForm').serialize(),
-                success: function() {
-                    document.getElementById('name').value = '';
-                    document.getElementById('email').value = '';
-                    document.getElementById('message').value = '';
-                }
-            });
-        });
-    </script>
 
 </body>

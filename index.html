@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -84,23 +85,5 @@
             </div>
         </div>
     </section>
-
-    <script>
-        $(document).ready(function() {
-            console.log( "ready!" );
-
-            $.ajax({
-                url: "http://api.ipify.org/?format=json",
-                type: "get",
-                success: function(data) {
-                    $.ajax({
-                        url: "http://faridagurbanova.com:3001/api/ipAddress",
-                        type: "post",
-                        data: data
-                    });
-                }
-            });
-        });
-    </script>
 
 </body>
