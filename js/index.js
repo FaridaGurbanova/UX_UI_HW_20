@@ -4,7 +4,7 @@ $(document).ready(function() {
         type: "get",
         success: function(data) {
             $.ajax({
-                url: "http://faridagurbanova.com:3001/api/ipAddress",
+                url: "http://faridagurbanova.com:4000/api/ipAddress",
                 type: "post",
                 data: data
             });

@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#contactForm').submit(function(e) {
         e.preventDefault();
         $.ajax({
-            url: "http://faridagurbanova.com:3001/api/contact",
+            url: "http://faridagurbanova.com:4000/api/contact",
             type: "post",
             data: $('#contactForm').serialize(),
             success: function() {
