@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+    app:
+        env_file:
+            - .env
+        image: 'farida-gurbanova-fe:${TAG}'
+        build: '.'
+        ports:
+            - 5001:80
