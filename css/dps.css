@@ -81,31 +81,31 @@ body {
 }
 .heroImage {
     grid-area: heroImage;
-    background-image: url(../images/DPS.svg);
+    background-image: url(../images/DPSbackground.png);
     background-repeat: no-repeat;
     background-position: 0vw;
     background-size: cover;
     height: 35vw;
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 20% 60%;
-    grid-template-rows: 15% 40% 55%;;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 90%;;
     grid-template-areas: 
-    "nav nav nav"
-    "description description mockups";
+    "nav nav"
+    "description description";
 }
 
 #description {
     grid-area: description;
-    font-family: Ubuntu;
+    margin-top: 26vw;
+    margin-right: 2vw;
+    font-family: Josefin Sans;
     font-style: normal;
-    font-size: 2.7vw;
-    line-height: 46px;
-    text-align: center;
-    margin-left: -7vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: end;
     text-transform: uppercase;
-    margin-top: 7vw;
-    color: #45789A;;
+    color: #45789A;
 }
 
 .aboutPro {
@@ -200,7 +200,6 @@ body {
 }
 
 .visual {
-    margin-left: 6vw;
     margin-top: -2vh;
     display: flex;
     flex-direction: row;
