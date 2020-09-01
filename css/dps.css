@@ -77,7 +77,7 @@ body {
     "beafter beafter"
     "hi-fi hi-fi"
     "video video"
-    "final final";
+    "copyright copyright";
 }
 .heroImage {
     grid-area: heroImage;
@@ -841,6 +841,27 @@ body {
     background-color: #E8EEF7;
     padding-bottom: 5vw;
 }
+
+#copyright {
+    grid-area: copyright;
+    background-color:#E8EEF7;
+}
+
+#copy {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.7vh;
+    line-height: 2vh;
+    margin-right: 2vw;
+    color: rgba(43, 72, 78, 0.58);
+}
+
+
 
 @media only screen and (max-width: 500px) {
     #portfolio {
