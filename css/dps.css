@@ -604,20 +604,19 @@ body {
     color: #E64652;
     margin-top: 5vw;
     margin-bottom: 0vw;
-    margin-left: 3vw;
+    margin-left: 5%;
 }
 
 .analysis {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
+    width: 90%;
+    height: auto;
     font-size: 2vw;
     justify-content: center;
     align-items: center;
     align-content: center;
     margin-top: 2vw;
-    color: #022538;
-    margin-left: 3vw;
+    margin-bottom: 0vw;
+    margin-left: 5vw;
 }
 
 .brainstorm {
